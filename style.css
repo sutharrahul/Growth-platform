@@ -1,0 +1,88 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ffff;
+} 
+.logo{
+    height: 40px;
+}
+.container{
+    max-width: fit-content;
+    margin: 50px 0px 0px 150px;
+    font-family:Poppins;
+}
+.navbar-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: ; */
+}
+.list{
+    margin-left: 100px;
+    display: flex;
+    flex-direction: row;
+    color: #bab9b9;
+}
+.list-item {
+    margin: 20px;
+    list-style: none;
+
+}
+li:first-child
+{
+    color: black;
+    font-weight: 500;
+}
+.button-group{
+    text-align: right;
+}
+.nav-button{
+    background-color: #5955b3;
+    color: #ffff;
+    height: 40px;
+    width: 100px;
+    border:none;
+    border-radius: 7px;
+    right: 300px;
+    margin-left: 400px;
+}
+.banner-container{
+    display:flex;
+   justify-content: space-between;
+}
+.heading-text{
+    color: #3c2f60;
+    font-size: 60px;
+    font-weight: 600;
+    width: 500px;
+    margin: 40px 0px;
+}
+h1 span{
+    color: #5955b3;
+    align-items: center;
+}
+.description{
+    color:#a8a8a8 ;
+    width: 400px;
+}
+.nav-button.btn{
+    background-color: #5955b3;
+    color: #ffff;
+    height: 50px;
+    width: 150px;
+    border: #5955b3;
+    border-radius: 7px;
+    /* position: absolute; */
+    margin:50px 0px;
+}
+.landing-banner{
+    
+    text-align: right;
+}
+.landing-banner>img{
+    width: 80%;
+}
+
